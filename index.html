@@ -1,66 +1,161 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
-<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
-
+<html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>phillip michalowski</title>
+    <title>Phillip Michalowski</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/full.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand page-scroll" href="#page-top">Welcome</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="page-scroll" href="#download">Resumé</a>
                     </li>
                     <li>
-                        <a href="PhillipMichalowskiResume.pdf">Resumé</a>
+                        <a class="page-scroll" href="#features">About</a>
                     </li>
                     <li>
-                        <a href="https://phillipmichalowski.wordpress.com/">Blog</a>
+                        <a class="page-scroll" href="mailto:michalowski.phillip@gmail.com">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
-    <!-- Put your page content here! -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1>Phillip Michalowski</h1>
+                            <a href="#download" class="btn btn-outline btn-xl page-scroll">//</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <section id="download" class="download bg-primary text-center">
+        <img class = "img-rounded" id = "face" src = "img/me.jpg" width="184" height="276"/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+<br />
+                    <h2 class="section-heading">I'm curious about code.</h2>
+                    <a class="btn btn-outline btn-xl page-scroll" href = "resumé.pdf">Resumé</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h2>Work</h2>
+                        <p class="text-muted">This is what I've done thus far!</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="feature-item">
+                                  <img src="img/pomo_logo.png" alt="Nature" style="width:75%" class = "img-rounded">
+                                    <h3 href = "">Pomoarduino</h3>
+                                    <p class="text-muted">Productivity enhancing microcontroller gadget with 3D-printed casing</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature-item">
+                                  <img src="img/dml.jpg" alt="Nature" style="width:100%" class = "img-rounded">
+                                    <h3 href = "">Digital Media Lab</h3>
+                                    <p class="text-muted">Provided instruction for media production and 3D Innovation Center.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature-item">
+                                  <img src="img/nocy.png"style="width:100%" class = "img-rounded">
+                                    <h3> nocy</h3>
+                                    <p href = "https://www.soundcloud.com/no_cy" target = "_blank">I enjoy making music. This is where you can find some of it.</p>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                  <h1 class = "col-lg-12 text-center"> Much more to come!</h1>
+    </section>
+
+<!--add images of projects, figure out spacing with main face-->
+
+  <!--  <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <ul class="list-inline list-social">
+                <li class="social-github">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class=".icon-social-linkedin">
+                    <a href="#"><i></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>-->
+
+    <section id="contact" class="contact bg-primary">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-md-4">
+                      <a href="https://www.linkedin.com/in/phillip-michalowski" target = "_blank" class="btn btn-outline btn-xl page-scroll">LinkedIn</a>
+                </div>
+                  <div class = "col-md-4">
+                        <a href="https://phillipmichalowski.wordpress.com/" target = "_blank" class="btn btn-outline btn-xl page-scroll">Blog</a>
+                  </div>
+                  <div class = "col-md-4">
+                      <a href="https://github.com/onocy/" target = "_blank" class="btn btn-outline btn-xl page-scroll">Github</a>
+                  </div>
+              </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/new-age.js"></script>
 
 </body>
 
