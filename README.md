@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap](http://startbootstrap.com/) - [Full](http://startbootstrap.com/template-overviews/full/)
 
 [Full](http://startbootstrap.com/template-overviews/full/) is full page background image HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
@@ -25,3 +26,8 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full/blob/gh-pages/LICENSE) license.
+=======
+### My Website! :smile: 
+
+Based off of a website created by David Miller. 
+>>>>>>> 9554efc4f14d87d8f4c33004a6b709ede19b038d
